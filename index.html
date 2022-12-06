@@ -1,0 +1,40 @@
+<html>
+<head>
+
+	<title>AI Ping Pong Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+
+  <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+  
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body background="back.jpg">
+<center>
+  <div class="btn btn-warning heading">
+    <h3>AI Ping Pong Game</h3>
+      <button id="instructions" class="btn btn-warning" data-toggle="modal" data-target="#myModal">Instruction</button>
+      <button class="btn btn-warning" data-toggle="modal" data-target="#myModal">Restart</button></div>
+    <br> <br>
+    <button onclick="start()" class="btn btn-success" id="start">Play Game</button>
+    <br> <br>
+    <h1 class="btn btn-info"></h1>
+    <div id="canvas">
+
+    </div>
+  </center>
+
+  <div class="copy_right_footer">
+    Developed by - Saanvi Nalla
+  </div>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>

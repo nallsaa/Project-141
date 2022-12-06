@@ -1,0 +1,53 @@
+body{
+    background-size:cover;
+}
+
+.heading{
+    font-size:23px;
+    width:100%;
+    margin:0px;
+}
+
+#start, #number_of_objects, #start{
+    font-size:18px;
+}
+
+.copy_right_footer{
+position:fixed;
+color:cornflowerblue;
+bottom:0;
+width:100%;
+background-color:aliceblue;
+line-height:3;
+text-align:center;
+}
+
+canvas{
+    border:2px solid white;
+    border-radius:10px;
+    margin-top:70px;
+    box-shadow:5px 5px 5px white;
+}
+
+#instruction{
+    width:75px;
+    height:25px;
+    font-size:13px;
+    position:right;
+    color:black;
+}
+
+.heading h3{
+    display: inline;
+}
+
+.heading{
+    width:100%;
+    text-align:left;
+}
+
+.heading button{
+    float:right;
+    border:1px solid white;
+}
+
